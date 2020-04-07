@@ -1,0 +1,60 @@
+        .fixed_player {
+                z-index: 3;
+                position: fixed; 
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: auto;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                background-color: rgb(19,19,19);
+            }
+            .track_title{
+                color: black;
+            }
+            .active {
+                cursor: default;
+            }
+            .track {
+                cursor: pointer;
+            }
+            
+            .track.active {
+                cursor: default;
+            }
+            
+            .plyr--audio .plyr__controls {
+                background-color:transparent;
+                border:none;
+                color:#fff;
+                padding:20px 0px 20px 0px;
+                width:100%;
+            }
+            
+            a.plyr__controls__item.plyr__control:hover,
+                .plyr--audio .plyr__controls button:hover,
+                .plyr--audio .plyr__controls button.tab-focus:focus,
+                .plyr__play-large {
+                background-color:rgba(0,0,0,.1);
+            }
+            
+            .plyr__progress--played,
+            .plyr__volume--display {
+                color:rgba(0,0,0,.1);
+            }
+            
+            .plyr--audio .plyr__progress--buffer,
+            .plyr--audio .plyr__volume--display {
+                background:rgba(0,0,0,.1);
+            }
+            
+            .plyr--audio .plyr__progress--buffer {
+                color:rgba(0,0,0,.1);
+            }
+
+            .plLength {
+                padding-top: 12px;
+                padding-left:21px;
+                position:absolute;
+                right:21px;
+            }
