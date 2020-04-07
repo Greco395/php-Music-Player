@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## version 3.0.0 | *Date: 07/04/2020*
+| **Changed** |  |
+| :---:  | --- |
+| - | New style of Playlist Page ( Material ). |
+| - | Improved on playlist system.  |
+| **Added** |  |
+| :---:  | --- |
+| - | Music controls on browser notification |
+
+
 ## version 2.0.0 | *Date: 26/03/2020*
 | **Added** |  |
 | :---:  | --- |
