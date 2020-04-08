@@ -17,17 +17,6 @@ class ACCESS{
     }
     public function is_logged(){
         global $_SESSION;
-        if(include($this->user_credentials_file)){
-            if(session_name() != $session_name){
-                session_destroy();
-                $_SESSION['logged'] = false;
-                header("Location ?no");
-                
-            }
-        }else{
-            return false;
-            die();
-        }
         if(isset($_SESSION['logged']) && $_SESSION['logged']){
             return true;
         }else{
@@ -42,7 +31,7 @@ class ACCESS{
         }else{
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
             $udata = fopen($this->user_credentials_file, "w") or die("Unable to write file!<br>Check permission");
-            fwrite($udata, "<?php \$session_name='gr-".rand(10000,99999)."_".rand(1000,9999)."-".time()."'; \$real_username='".htmlspecialchars($username)."'; \$real_password='".$hashed_password."'; ?>");
+            fwrite($udata, "<?php \$real_username='".htmlspecialchars($username)."'; \$real_password='".$hashed_password."'; ?>");
             fclose($udata);
             $is_new = 1;   
         }
@@ -50,9 +39,6 @@ class ACCESS{
     public function login($username, $password){
         global $_SESSION;
         include($this->user_credentials_file);
-        session_destroy();
-        session_name($session_name);
-        session_start();
         if(htmlspecialchars($username) == $real_username && password_verify($password, $real_password)){
             $_SESSION['logged'] = true;
             return true;
