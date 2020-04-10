@@ -20,7 +20,7 @@ GR3Music Player is a simple HTML5/PHP Audio player that supports [_modern_](http
 # Installation
 Installing this script is really simple, just upload it to the server in the public folder (from VPS for example in /var/www/). Then go on your website to the folder containing the script for configuring the admin panel, example: 
 ```
-http://yourwebsite.com/folderTo/GR3Music-Player-master/up/
+http://yourwebsite.com/folderTo/php-Music-Player-master/up/
 ```
 
 # Donate
