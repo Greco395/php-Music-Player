@@ -7,7 +7,6 @@ All notable changes to this project will be documented in this file.
 | - | New style of Playlist Page ( Material ). |
 | - | Improved on playlist system.  |
 | **Added** |  |
-| :---:  | --- |
 | - | Music controls on browser notification |
 
 
