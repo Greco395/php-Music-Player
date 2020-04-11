@@ -12,8 +12,9 @@ GR3Music Player is a simple HTML5/PHP Audio player that supports [_modern_](http
 
 # To do
 
--   [x] Login in management panel
--   [x] Support other audio type
+-   [x] Login in management panel (v2)
+-   [x] Support other audio type (v2)
+-   [x] Style in Material design (v3)
 -   [ ] Multiple playlist
 -   [ ] Offline play
 
