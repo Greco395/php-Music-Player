@@ -1,4 +1,7 @@
 <?php
+/*
+    DJ class FROM GR3Music-Player BY Domenico Greco
+*/
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 
