@@ -55,7 +55,7 @@ ini_set('display_startup_errors', 0);
     	</div>
     </nav>
 
-	<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('<?php echo file_get_contents("https://greco395.com/API/images/random_pixabay/index.php"); ?>');" title="images by pixabay">
+	<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('<?php echo file_get_contents("https://gr3studios.com/API/images/random_pixabay/index.php"); ?>');" title="images by pixabay">
 		<div class="container">
     		<div class="row">
         		<div class="col-md-8 col-md-offset-2">
@@ -103,13 +103,13 @@ ini_set('display_startup_errors', 0);
 						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://github.com/Greco395/php-Music-Player">
+						<a target="_blank" href="https://github.com/gr3studios/php-Music-Player">
 							<i class="fab fa-github"></i> VIEW ON GITHUB
 						</a>
 					</li>
 					<li>
 						<a target="_blank" href="https://domenicogreco.com">
-						   <i class="fa fa-link"></i> Greco395.com
+						   <i class="fa fa-link"></i> GR3Studios.com
 						</a>
 					</li>
 				</ul>
