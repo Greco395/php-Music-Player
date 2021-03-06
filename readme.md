@@ -1,8 +1,8 @@
 GR3Music Player is a simple HTML5/PHP Audio player that supports [_modern_](https://updatemybrowser.org/) browsers - *ONLY* for Linux host.
 
-[Checkout the demo](https://greco395.com/projects/GR3Music/) - [Donate](#donate)
+[Checkout the demo](https://gr3studios.com/projects/GR3Music/) - [Donate](#donate)
 
-[![Image of GR3Music](https://greco395.com/projects/GR3Music/docs/screen.jpg)](https://greco395.com/projects/GR3Music/)
+[![Image of GR3Music](https://gr3studios.com/projects/GR3Music/docs/screen.jpg)](https://greco395.com/projects/GR3Music/)
 
 # Features
 
