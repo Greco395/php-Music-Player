@@ -108,7 +108,7 @@ ini_set('display_startup_errors', 0);
 						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://domenicogreco.com">
+						<a target="_blank" href="https://gr3studios.com">
 						   <i class="fa fa-link"></i> GR3Studios.com
 						</a>
 					</li>
