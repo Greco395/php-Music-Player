@@ -270,7 +270,7 @@ if(!include($access->user_credentials_file)){ ?>
                                   <button type="submit" class="btn btn-warning">RETURN BACK</button>
                               </form>
                             </div>
-                        <?}
+                        <?php }
                     }
                 ?>
                 <div class="form-group">
