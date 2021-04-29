@@ -103,7 +103,7 @@ ini_set('display_startup_errors', 0);
 						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://github.com/gr3studios/php-Music-Player">
+						<a target="_blank" href="https://github.com/Greco395/php-Music-Player">
 							<i class="fab fa-github"></i> VIEW ON GITHUB
 						</a>
 					</li>
